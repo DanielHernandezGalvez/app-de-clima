@@ -44,7 +44,7 @@ function App() {
       <div className="overlay">
         {weather && (
           <div className="container">
-            <div className="section sectionA section__inputs">
+            <div className="section section__inputs">
               <input
                 onKeyDown={enterKey}
                 type="text"
